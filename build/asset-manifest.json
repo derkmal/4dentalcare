@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/dentalcare/static/js/main.4bf5918c.js",
+    "index.html": "/dentalcare/index.html",
+    "main.4bf5918c.js.map": "/dentalcare/static/js/main.4bf5918c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4bf5918c.js"
+  ]
+}
