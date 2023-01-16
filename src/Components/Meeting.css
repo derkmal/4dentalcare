@@ -4,34 +4,14 @@
     box-sizing: border-box;
 }
          
-@import url('https://fonts.cdnfonts.com/css/futura-pt'); /* https://www.cdnfonts.com/futura-pt.font */ 
-
-.h1h2Button {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.h1h2Button h1 {
-    font-family: 'Futura PT', sans-serif;                                                
-    font-weight: 800;
-}
-
-.h1h2Button h2 {
-    font-family: 'Futura PT', sans-serif;                                                
-    font-size: 1.999rem;
-    font-weight: 100;  
-}
-
-.girlSmile {
+.container {
     padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.girlSmile p {
+.container p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-weight: 400;
 }

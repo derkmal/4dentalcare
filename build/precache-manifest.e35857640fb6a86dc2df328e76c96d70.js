@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "71271c561da71c692029",
-    "url": "/dentalcare/static/css/main.46afc47c.chunk.css"
+    "revision": "bdbc874b881ab2334e45",
+    "url": "/dentalcare/static/css/main.2c9b574d.chunk.css"
   },
   {
-    "revision": "71271c561da71c692029",
-    "url": "/dentalcare/static/js/main.71271c56.chunk.js"
+    "revision": "bdbc874b881ab2334e45",
+    "url": "/dentalcare/static/js/main.bdbc874b.chunk.js"
   },
   {
     "revision": "7fe6c5c56602ae9f819b",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/dentalcare/static/js/runtime~main.b70160d5.js"
   },
   {
-    "revision": "6626c66056b8ab06b33c6f757033e9f8",
+    "revision": "80e524687a1ccd90b441bf983587ee8b",
     "url": "/dentalcare/index.html"
   }
 ];
