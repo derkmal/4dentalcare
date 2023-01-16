@@ -11,6 +11,13 @@
     justify-content: space-between;
 }
 
+.jobInterview p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 200;
+}
+
 .lastButton {
     margin: 0 auto;
+    font-family: Futura;
+    font-weight: 300;
 }

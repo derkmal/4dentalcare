@@ -30,3 +30,13 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.girlSmile p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 200;
+}
+
+.firstButton {
+    font-family: Futura;
+    font-weight: 300;
+}
