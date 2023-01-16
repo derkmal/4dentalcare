@@ -10,3 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.lastButton {
+    margin: 0 auto;
+}

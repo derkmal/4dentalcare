@@ -9,7 +9,7 @@ const Job=()=> {
                 <h3>Even in a job interview your smile can lead to a favourable situation</h3>
             </div>
             
-            <button>Bring back your smile now</button>
+            <button className="lastButton">Bring back your smile now</button>
 
         </div>
     );
