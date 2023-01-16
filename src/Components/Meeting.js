@@ -2,11 +2,11 @@ import React from "react";
 import "./Meeting.css";
 
 
-const Meeting=(Meeting)=> {
+const Meeting=(props)=> {
     return(
             <div className="container">
-                <img src={Meeting.imgsrc} alt="Girl" style={{ width: '400px' }} />
-                <p>{Meeting.text}</p>
+                <img src={props.imgsrc} alt="Girl" style={{ width: '400px' }} />
+                <p>{props.text}</p>
             </div>
     );
 };
