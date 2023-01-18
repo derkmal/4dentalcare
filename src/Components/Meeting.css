@@ -5,11 +5,10 @@
 }
          
 .containerMeeting {
-    padding: 20px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* style={{ width: '400px' }} */
 }
 
 .containerMeeting p {
@@ -18,7 +17,9 @@
 }
 
 .containerCard {
-    width: 40%;
+    width: 30%;
+    border: thin solid black;
+    border-radius: 3px;
 }
 
 .containerCard img {
