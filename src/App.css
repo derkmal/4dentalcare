@@ -6,20 +6,20 @@
 
 @import url('https://fonts.cdnfonts.com/css/futura-pt'); /* https://www.cdnfonts.com/futura-pt.font */ 
 
-.container {
+.containerHeader {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.container h1 {
+.containerHeader h1 {
     font-family: 'Futura PT', sans-serif;                                                
     font-weight: 800;
     margin-top: 10px;
 }
 
-.container h2 {
+.containerHeader h2 {
     font-family: 'Futura PT', sans-serif;                                                
     font-size: 1.999rem;
     font-weight: 100;  

@@ -4,9 +4,11 @@ import "./Meeting.css";
 
 const Meeting=(props)=> {
     return(
-            <div className="container">
-                <img src={props.imgsrc} alt="Girl" style={{ width: '400px' }} />
-                <p>{props.text}</p>
+            <div className="containerMeeting">
+                <div className="containerCard">
+                    <img src={props.imgsrc} alt="Girl" />
+                    <p>{props.text}</p>
+                </div>
             </div>
     );
 };
