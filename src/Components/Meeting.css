@@ -18,11 +18,11 @@
 }
 
 .containerCard {
-    width: 20rem;
+    width: 40%;
 }
 
 .containerCard img {
-    width: 20rem;
+    width: 100%;
 }
 
 .firstButton {
