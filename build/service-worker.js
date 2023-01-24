@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dentalcare/precache-manifest.e35857640fb6a86dc2df328e76c96d70.js"
+  "/dentalcare/precache-manifest.60e79244afbedc32a18c504c34c3e981.js"
 );
 
 workbox.clientsClaim();
