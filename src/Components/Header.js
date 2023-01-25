@@ -6,7 +6,7 @@ const Header=()=> {
     return(
         <div className="header">
             <h2>Dental Lux</h2>
-            <button>Sign In</button>
+            <button id="button1">Sign In</button>
         </div>
     );
 };

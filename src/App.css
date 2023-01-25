@@ -24,3 +24,14 @@
     font-size: 1.999rem;
     font-weight: 100;  
 }
+
+.buttonCTA {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttonCTA button {
+    font-size: 1.5rem;
+    padding: .5rem 2rem;
+}

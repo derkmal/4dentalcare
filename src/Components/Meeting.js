@@ -10,6 +10,8 @@ const Meeting=(props)=> {
                     <p>{props.text}</p>
                 </div>
             </div>
-    );
+        );
 };
+
+
 export default Meeting;
