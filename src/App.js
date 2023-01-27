@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Components/Header';
 import Meeting from './Components/Meeting';
+import FormSection from './Components/FormSection';
 import './App.css';
 import Data from './Components/MeetingData';
 
@@ -27,9 +28,7 @@ import Data from './Components/MeetingData';
                     })}
                 </div>
 
-                <div className="buttonCTA">
-                    <button>Bring back your smile now</button>
-                </div>
+                <FormSection />
             </>
         );
     };
