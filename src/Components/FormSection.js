@@ -2,55 +2,66 @@ import React,{useState} from 'react'
 import './FormSection.css'
 
 const FormSection = () => {
-    const [myname, setmyName]=useState("");
-    const [mobile, setMobile]=useState("");
-    const [email, setEmail]=useState("");
-    const [password, setPassword]=useState("");
-    const [newEntry, setNewEntry]=useState([]);
+    const [newEntry, setNewEntry]=useState({
+        myname:"",
+        mobile:"",
+        email:"",
+        password:""
+    });
 
-    const myData =(e)=> {
-        setmyName(e.target.value);
-    }
-    const myMobile =(e)=> {
-        setMobile(e.target.value);
-    }
-    const myEmail =(e)=> {
-        setEmail(e.target.value);
-    }
-    const myPassword =(e)=> {
-        setPassword(e.target.value);
-    }
-    const submitData =(e)=> {
+    const inputData=(e)=> {
         e.preventDefault();
-        if(myname,mobile,email,password) {
-
-            const newData={myname:myname, mobile:mobile, email:email, password:password};
-            setNewEntry([...newEntry, newData]);
-            setmyName("");
-            setMobile("");
-            setEmail("");
-            setPassword("");
-        } else {
-            alert("Bitte füllen Sie das Formular aus");
-        }
+        const name = e.target.name;
+        const value = e.target.value;
+        setNewEntry((previousData)=> {
+            if(name == 'myname') {
+                    return {
+                        myname:value,
+                        mobile:previousData.mobile,
+                        email:previousData.email,
+                        password:previousData.password
+                    }
+            } else if(name == 'email') {
+                    return {
+                        myname:previousData.myname,
+                        mobile:previousData.mobile,
+                        email:value,
+                        password:previousData.password                        
+                    }
+            } else if(name == 'password') {
+                    return {
+                        myname:previousData.myname,
+                        mobile:previousData.mobile,
+                        email:previousData.email,
+                        password:value    
+                    }
+            } else if(name == 'mobile') {
+                return {
+                    myname:previousData.myname,
+                    mobile:value,
+                    email:previousData.email,
+                    password:previousData.password    
+                }
+            }
+        })
     }
 
     return (
     <>
         <div className="containerFormSection">
             <div className="containerForm my-3 text-center">
-                <form onSubmit={submitData}>
+                <form>
                     <div>
-                        <input type="text" placeholder='Ihren Name schreiben' className='w-50 my-1 py-1' value={myname} onChange={myData} />
+                        <input type="text" placeholder='Ihren Name schreiben' className='w-50 my-1 py-1' value={newEntry.myname} name="myname" onChange={inputData} />
                     </div>
                     <div>
-                        <input type="text" placeholder='Ihre Mobilnummer schreiben' className='w-50 my-1 py-1' value={mobile} onChange={myMobile} />
+                        <input type="text" placeholder='Ihre Mobilnummer schreiben' className='w-50 my-1 py-1' value={newEntry.mobile} name="mobile" onChange={inputData} />
                     </div>
                     <div>
-                        <input type="text" placeholder='Ihre E-mail schreiben' className='w-50 my-1 py-1' value={email} onChange={myEmail} />
+                        <input type="text" placeholder='Ihre E-mail schreiben' className='w-50 my-1 py-1' value={newEntry.email} name="email" onChange={inputData} />
                     </div>
                     <div>
-                        <input type="text" placeholder='Ihres Passwort schreiben' className='w-50 my-1 py-1' value={password} onChange={myPassword} />
+                        <input type="text" placeholder='Ihres Passwort schreiben' className='w-50 my-1 py-1' value={newEntry.password} name="password" onChange={inputData} />
                     </div>
                     <button className="btn btn-dark" type='submit'>Submit</button>
                 </form>
