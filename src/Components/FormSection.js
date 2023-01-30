@@ -22,12 +22,17 @@ const FormSection = () => {
     }
     const submitData =(e)=> {
         e.preventDefault();
-        const newData={myname:myname, mobile:mobile, email:email, password:password};
-        setNewEntry([...newEntry, newData]);
-        setmyName("");
-        setMobile("");
-        setEmail("");
-        setPassword("");
+        if(myname,mobile,email,password) {
+
+            const newData={myname:myname, mobile:mobile, email:email, password:password};
+            setNewEntry([...newEntry, newData]);
+            setmyName("");
+            setMobile("");
+            setEmail("");
+            setPassword("");
+        } else {
+            alert("Bitte füllen Sie das Formular aus");
+        }
     }
 
     return (
