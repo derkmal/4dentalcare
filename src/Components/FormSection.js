@@ -14,35 +14,10 @@ const FormSection = () => {
         const name = e.target.name;
         const value = e.target.value;
         setNewEntry((previousData)=> {
-            if(name == 'myname') {
-                    return {
-                        myname:value,
-                        mobile:previousData.mobile,
-                        email:previousData.email,
-                        password:previousData.password
-                    }
-            } else if(name == 'email') {
-                    return {
-                        myname:previousData.myname,
-                        mobile:previousData.mobile,
-                        email:value,
-                        password:previousData.password                        
-                    }
-            } else if(name == 'password') {
-                    return {
-                        myname:previousData.myname,
-                        mobile:previousData.mobile,
-                        email:previousData.email,
-                        password:value    
-                    }
-            } else if(name == 'mobile') {
-                return {
-                    myname:previousData.myname,
-                    mobile:value,
-                    email:previousData.email,
-                    password:previousData.password    
-                }
-            }
+           return{
+                ...previousData,
+                [name]: value
+           }
         })
     }
 
