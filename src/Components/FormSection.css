@@ -5,6 +5,11 @@
 }
 
 body {
-    background-color: #5f9e69;
+    background-color: #368F83;
 }
+
+input:focus{
+    outline: none;
+}
+
 
