@@ -7,7 +7,7 @@ const Data=[
     {
         id:2,
         imgsrc:"../Images/2.jpg ",
-        text:"Even in a job interview your smile can lead to a favourable situation"
+        text:"Even during a job interview your smile can lead to a favourable situation - it's your secret."
     }
 ]
 
