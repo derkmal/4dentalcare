@@ -27,18 +27,18 @@ const FormSection = () => {
             <div className="containerForm my-3 text-center">
                 <form>
                     <div>
-                        <input type="text" placeholder='Ihren Name schreiben' className='w-50 my-1 py-1 rounded' value={newEntry.myname} name="myname" onChange={inputData} />
+                        <input type="text" placeholder='Ihren Name schreiben' className='w-50 my-1 py-2 rounded' value={newEntry.myname} name="myname" onChange={inputData} />
                     </div>
                     <div>
-                        <input type="text" placeholder='Ihre Mobilnummer schreiben' className='w-50 my-1 py-1 rounded' value={newEntry.mobile} name="mobile" onChange={inputData} />
+                        <input type="text" placeholder='Ihre Mobilnummer schreiben' className='w-50 my-1 py-2 rounded' value={newEntry.mobile} name="mobile" onChange={inputData} />
                     </div>
                     <div>
-                        <input type="text" placeholder='Ihre E-mail schreiben' className='w-50 my-1 py-1 rounded' value={newEntry.email} name="email" onChange={inputData} />
+                        <input type="text" placeholder='Ihre E-mail schreiben' className='w-50 my-1 py-2 rounded' value={newEntry.email} name="email" onChange={inputData} />
                     </div>
                     <div>
-                        <input type="text" placeholder='Ihres Passwort schreiben' className='w-50 my-1 py-1 rounded' value={newEntry.password} name="password" onChange={inputData} />
+                        <input type="text" placeholder='Ihres Passwort schreiben' className='w-50 my-1 py-2 rounded' value={newEntry.password} name="password" onChange={inputData} />
                     </div>
-                    <button className="btn btn-dark rounded-bottom-1 px-5" type='submit'>I Want My Smile Back</button>
+                    <button className="btn btn-warning rounded-bottom-1 px-5 btn-lg" type='submit'>I Want My Smile Back</button>
                 </form>
             </div>
         </div>
