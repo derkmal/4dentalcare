@@ -5,7 +5,7 @@
 }
          
 .containerMeeting {
-    padding: 0px 20px;
+    padding: 5px 20px;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
@@ -25,11 +25,13 @@
     margin-top: 1.5rem;
     /* border: thin solid black; */
     border-radius: 3px;
+    display: flex;
 }
 
 .containerCard img {
-    width: 100%;
-    border-radius: 50%;
+    width: 45%;
+    border-radius: inherit;
+    margin-right: 1rem;
 }
 
 .firstButton {
