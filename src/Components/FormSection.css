@@ -9,7 +9,7 @@ body {
 }
 
 input {
-    padding: .5rem;
+    padding: .5em;
 }
 
 input:focus{

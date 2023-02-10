@@ -12,18 +12,20 @@
     justify-content: space-between;
     align-items: center;
     background-color: #75dbcd;
+    min-width: 320px;
+    max-width: 1440px;
 }
 
 .containerHeader h1 {
     font-family: 'Futura PT', sans-serif;   
-    font-size: 2.1rem;                                             
-    font-weight: 800;
-    margin-top: 1rem;
+    font-size: 2.5em;                                             
+    font-weight: 600;
+    /* margin-top: 1em; */
 }
 
 .containerHeader h2 {
     font-family: 'Futura PT', sans-serif;                                                
-    font-size: 1.999rem;
+    font-size: 1.999em;
     font-weight: 300;  
 }
 
@@ -34,6 +36,13 @@
 }
 
 .buttonCTA button {
-    font-size: 1.5rem;
-    padding: .5rem 2rem;
+    font-size: 1.5em;
+    padding: .5em 2em;
 }
+
+@media screen and (max-width: 1230px) {
+    .containerHeader {
+        text-align: center;
+    }   
+}
+

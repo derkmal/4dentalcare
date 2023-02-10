@@ -1,7 +1,6 @@
 import React from "react";
 import "./Meeting.css";
 
-
 const Meeting=(props)=> {
     
     return(
@@ -13,6 +12,5 @@ const Meeting=(props)=> {
             </div>
         );
 };
-
 
 export default Meeting;

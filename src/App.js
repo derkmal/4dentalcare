@@ -10,7 +10,7 @@ import Data from './Components/MeetingData';
             <>
                 <Header />
                 <div className="containerHeader">
-                    <h1>RECEIVE THE BEST DENTAL TREATMENT TO AVOID CROOKED-TEETH PROBLEM</h1>
+                    <h1>Receive The Best Dental Treatment To Avoid Crooked-Teeth Problem</h1>
                     <h2>We will give you the accurate assessment to find out which braces best suit you.</h2>
                 </div>
                 
