@@ -4,17 +4,22 @@
     box-sizing: border-box;
 }
 
-body {
+.containerFormSection {
     background-color: #368F83;
-    min-width: 320px;
-    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-input {
+input[type=text] {
+    /* width: 100%; */
+    margin: .1em;
     padding: .5em;
 }
 
 input:focus{
     outline: none;
 }
+
+
 
