@@ -22,12 +22,15 @@
     font-size: 2.5em;                                             
     font-weight: 600;
     /* margin-top: 1em; */
+    text-shadow: 1px 3px 3px rgb(0 0 0 / 23%);
 }
 
 .containerHeader h2 {
     font-family: 'Futura PT', sans-serif;                                                
     font-size: 1.999em;
     font-weight: 300;  
+    text-shadow: 0px 3px 4px rgb(0 0 0 / 23%);
+
 }
 
 .buttonCTA {

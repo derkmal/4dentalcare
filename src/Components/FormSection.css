@@ -8,9 +8,15 @@ body{
     background-color: #368F83;
 }
 
+input[type=text] {
+    background-color: #001713;
+}
+
 input:focus{
     outline: none;
 }
+
+
 
 
 

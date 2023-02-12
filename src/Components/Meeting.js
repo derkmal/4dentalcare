@@ -2,7 +2,6 @@ import React from "react";
 import "./Meeting.css";
 
 const Meeting=(props)=> {
-    
     return(
             <div className="containerMeeting">
                 <div className="containerCard">
