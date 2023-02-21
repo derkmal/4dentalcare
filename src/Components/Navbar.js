@@ -14,8 +14,8 @@ const Navbar=()=> {
             <NavLink to="/" exact>
                 <li class="nav-item nav-link">Home</li>
             </NavLink>
-            <NavLink to="/signin" exact>
-                <li className="btn btn-primary">Sign In</li>
+            <NavLink to="/signin">
+                <li class="btn btn-dark">Sign In</li>
             </NavLink>
         </div>
     );
