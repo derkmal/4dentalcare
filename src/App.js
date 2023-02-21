@@ -13,8 +13,7 @@ import {Routes,Route} from 'react-router-dom';
                 <Navbar />
 
                 <Routes>
-                    <Route exact path='' element={<App/>} ></Route>    
-                    <Route exact path='/singin' element={<SignIn/>} ></Route>    
+                    <Route exact path="/singin" element={<SignIn/>} ></Route>    
                 </Routes>
 
                 <div className="containerHeader">
