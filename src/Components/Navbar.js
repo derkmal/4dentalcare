@@ -2,8 +2,7 @@ import React from "react";
 import "./Navbar.css";
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {NavLink} from 'react-router-dom';
-import SignIn from "./SignIn";
-import {Routes,Route} from 'react-router-dom';
+// import {Routes,Route} from 'react-router-dom';
 
 
 
@@ -15,9 +14,6 @@ const Navbar=()=> {
             <NavLink to="/signin">
                 <li className="btn btn-primary" exact>Sign In</li>
             </NavLink>
-            <Routes>
-                    <Route exact path="/singin" element={<SignIn/>}></Route>    
-            </Routes>            
         </div>
     );
 };

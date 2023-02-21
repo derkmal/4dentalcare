@@ -5,15 +5,18 @@ import FormSection from './Components/FormSection';
 import './App.css';
 import Data from './Components/MeetingData';
 import SignIn from './Components/SignIn';
-// import {Routes,Route} from 'react-router-dom';
+import {Routes,Route} from 'react-router-dom';
 
     const App=()=> {
         return(
             <>
                 <Navbar />
-                {/* <Routes>
-                    <Route exact path="/singin" ></Route>    
-                </Routes> */}
+
+                <Routes>
+                    <Route exact path='' element={<App/>} ></Route>    
+                    <Route exact path='/singin' element={<SignIn/>} ></Route>    
+                </Routes>
+
                 <div className="containerHeader">
                     <h1>Receive The Best Dental Treatment To Avoid Crooked-Teeth Problem</h1>
                     <h2>We will give you the accurate assessment to find out which braces best suit you.</h2>
