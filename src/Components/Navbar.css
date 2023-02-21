@@ -24,7 +24,8 @@
 .header a {
     text-decoration: none;
     font-size: 1.3em;
-    color: #fbd256;
+    color: #424649;
+    font-weight: 400;
 }
 
 .btn-primary {
