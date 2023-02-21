@@ -20,7 +20,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-size: 1.1em;
     font-weight: 400;
-    letter-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
 }
 
 .containerCard {
