@@ -1,7 +1,7 @@
 import React from 'react';
 import './SignIn.css';
 
-const SignIn =()=> {
+const SignIn=()=> {
   return (
     <div className='signBackground'>
         <h1>Sign In Page</h1>
