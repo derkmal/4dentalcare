@@ -12,7 +12,7 @@ import SignIn from './Components/SignIn';
 
                 <Routes>
                     <Route path="/" element={<Home/>}> </Route>    
-                    <Route path="singin" element={<SignIn/>}> </Route>    
+                    <Route path="/signin" element={<SignIn/>}> </Route>    
                 </Routes>
 
             </>

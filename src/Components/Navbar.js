@@ -11,11 +11,11 @@ const Navbar=()=> {
         <div className="header">
             <h2>Dental Lux</h2>
             {/* <button type="button" className="btn btn-dark px-4">Sign In</button> */}
-            <NavLink to="/" exact>
-                <li class="nav-item nav-link">Home</li>
+            <NavLink to="/">
+                <li className="nav-item nav-link">Home</li>
             </NavLink>
             <NavLink to="/signin">
-                <li class="btn btn-dark">Sign In</li>
+                <li className="btn btn-dark">Sign In</li>
             </NavLink>
         </div>
     );
