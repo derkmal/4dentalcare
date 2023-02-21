@@ -11,8 +11,8 @@ import SignIn from './Components/SignIn';
                 <Navbar />
 
                 <Routes>
-                    <Route path="/" element={<Home/>}></Route>    
-                    <Route path="/singin" element={<SignIn/>}></Route>    
+                    <Route path="/" element={<Home/>}> </Route>    
+                    <Route path="singin" element={<SignIn/>}> </Route>    
                 </Routes>
 
             </>
