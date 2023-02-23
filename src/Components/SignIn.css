@@ -4,10 +4,29 @@
     box-sizing: border-box;
 }
 
-.signBackground {
+.signContainer {
     background-color: cadetblue;
+    height: calc();
+    display: flex;
 }
 
-h1 {
-    font-size: 5em;
+.imageTreatment img {
+    width: 20em;
+    flex: 2;
 }
+
+form {
+    flex: 1;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    border: none;
+    color: white;
+}
+
+form input[type=text] {
+    background-color: #5F9DA0;
+    border: none;
+    padding: 5px;
+}
+
+

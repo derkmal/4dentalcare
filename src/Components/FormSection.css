@@ -16,7 +16,7 @@ input:focus{
     outline: none;
 }
 
-form button:before{
+form .btn-warning::before{
     content: '\2714\00A0';
 }
 
