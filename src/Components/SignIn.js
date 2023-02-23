@@ -22,7 +22,9 @@ const SignIn=()=> {
 				<input type="text" placeholder='Ihres Passwort schreiben'  value=""  name="password" />
 			</div>
 			
-			<input type='submit' className='forButton' value="I Want My Smile Back" />
+			<div>
+				<input type='submit' className='forButton' value="I Want My Smile Back" />
+			</div>
 		</form>
 	  
     </div>
