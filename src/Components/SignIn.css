@@ -5,47 +5,41 @@
 }
 
 .signContainer {
-    background-color: cadetblue;
-    height: calc();
+    background-color: #2D5D7B;
     display: flex;
 }
 
 .imageTreatment img {
-    width: 20em;
     flex: 2;
+    width: 20em;
 }
 
 form {
     flex: 1;
-    /* background-color: antiquewhite; */
     text-align: center;
     border: none;
     color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+form img {
+    width: 1.6em;
+    height: 1.6em;
+    object-fit: contain;
 }
 
 form input[type=text] {
-    background-color: #5F9DA0;
+    background-color: #2D5D7B;
     border: none;
+    border-bottom: thin solid rgba(0, 0, 0, 0.131);
     padding: 5px;
 }
 
-form div:nth-child(1)::before {
-    content: "🧑";
+form input[type=text]::placeholder {
+    color: rgba(255, 255, 255, 0.285);
+    font-size: 1em;
+    font-weight: 200;
 }
 
-form div:nth-child(2)::before {
-    content: "📱";
-}
 
-form div:nth-child(3)::before {
-    content: "📧";
-}
-
-form div:nth-child(4)::before {
-    content: "🔑";
-}
-
-form div:nth-child(5)::before {
-    content: "✔️";
-}
 
