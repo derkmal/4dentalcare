@@ -5,7 +5,7 @@ const SignIn=()=> {
   return (
     <div className='signContainer'>
       <div className='imageTreatment'>
-        <img src='../images/dental-treatment.jpg' alt=''/>
+        {/* <img src='../images/dental-treatment.jpg' alt=''/> */}
       </div>
       {/* https://thenounproject.com/ */}
 	  <form>

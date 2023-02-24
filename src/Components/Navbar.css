@@ -8,11 +8,12 @@
     --cor0: #53DBC9;
     --cor1: #6EA29B;
     --cor2: #368E82;
+    --cor3: #07393C;
 }
 
 .header {
     font-family: 'Futura PT', sans-serif;                                                
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
     color: #edf9ef;
     padding: .5em;
     display: flex;
