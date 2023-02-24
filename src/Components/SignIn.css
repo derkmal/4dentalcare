@@ -6,17 +6,20 @@
 
 .signContainer {
     background-color: #2D5D7B;
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
 .imageTreatment {
     background-image: url("./Images/dental-treatment.jpg");
-    background-size: 100% auto;
-    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* flex: 1; */
 }
 
 form {
-    flex: 2;
+    /* flex: 2; */
     text-align: center;
     border: none;
     color: white;
