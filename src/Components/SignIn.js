@@ -6,6 +6,7 @@ const SignIn=()=> {
     <div className='signContainer'>
       <div className='imageTreatment'>
         {/* <img src='../images/dental-treatment.jpg' alt=''/> */}
+		<div className="overlay"></div>
       </div>
       {/* https://thenounproject.com/ */}
 	  <form>
