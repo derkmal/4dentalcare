@@ -72,7 +72,7 @@ form input[type=text]::placeholder {
 }
 
 form input[type=submit] {
-    background-color: #e1ac0e; /* #FFCA2C */
+    background-color: #f2ba11; /* #FFCA2C */
     border: none;
     font-size: 1.2em;
     font-weight: 400;

@@ -16,6 +16,15 @@ input:focus{
     outline: none;
 }
 
+button[type=submit] {
+    width: 30em;
+    margin: 0 auto;
+}
+
+button[type=submit]:active {
+    transform: scale(0.99);
+}
+
 form .btn-warning::before{
     content: '\2714\00A0';
 }
