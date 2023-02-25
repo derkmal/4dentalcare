@@ -7,6 +7,7 @@
 .signContainer {
     background-color: #2D5D7B;
     display: grid;
+    min-height: 563px;
     grid-template-columns: 30% 70%;
 }
 
@@ -31,16 +32,20 @@
 
 form {
     /* flex: 2; */
-    text-align: center;
-    border: none;
+    /* text-align: center; */
     color: white;
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .formContainer {
-    width: 30%;
+    width: 50%;
     /* background-color: aliceblue; */
     margin: 0 auto;
+    border: thin solid rgba(255, 255, 255, 0.285);
+    border-radius: 0.5em;
 }
 
 form img {
@@ -48,14 +53,16 @@ form img {
     height: 1.6em;
     object-fit: contain;
     margin-right: 0.2em;
+    margin-left: 0.2em;
 }
 
 form input[type=text] {
+    width: 90%;
     background-color: #2D5D7B;
     border: none;
     border-bottom: thin solid rgba(255, 255, 255, 0.075);
     margin-bottom: 1em;
-    padding: 5px;
+    padding: 1em;
 }
 
 form input[type=text]::placeholder {
@@ -65,12 +72,22 @@ form input[type=text]::placeholder {
 }
 
 form input[type=submit] {
-    background-color: #FFCA2C;
+    background-color: #e1ac0e; /* #FFCA2C */
     border: none;
+    font-size: 1.2em;
+    font-weight: 400;
     border-radius: 3px;
-    padding: 5px 8px;
+    padding: 0.8em 1em;
     width: 100%;
+    margin-top: 1em;
 }
 
+form input[type=submit]:hover {
+    background-color: #d3a20c;
+}
+
+form input[type=submit]:active {
+    transform: scale(0.99);
+}
 
 
