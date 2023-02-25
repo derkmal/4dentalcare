@@ -3,13 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --cor0: #53DBC9;
+    --cor1: #6EA29B;
+    --cor2: #368E82;
+    --cor3: #07393C;
+    --cor4: #2D5D7B;
+    --cor5: #0f547e;
+    --cor6: #062234;
+    --cor7: #B3F2DD;
+    --cor8: #000500;
+    --cor9: #65AFFF;
+    --cor10: #75dbcd;
+}
          
 .containerMeeting {
     padding: 5px 20px;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
-    background-color: #75dbcd;
+    background-color: var(--cor9);
     min-width: 320px;
     max-width: 1440px;
 }
