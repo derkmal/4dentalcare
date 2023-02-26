@@ -90,7 +90,7 @@ form input[type=submit] {
     border: none;
     font-size: 1.2em;
     font-weight: 400;
-    border-radius: 0.5em;
+    border-radius: 0.5e;
     padding: 0.8em 1em;
     width: 100%;
     margin-top: 1em;

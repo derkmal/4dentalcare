@@ -29,6 +29,18 @@
     align-items: center;
 }
 
+.nav-link {
+    color: #d2e6fc;
+}
+
+.nav-link:active {
+    transform: scale(0.95);
+}
+
+.nav-link:hover {
+    color: var(--cor9);
+}
+
 .header a {
     text-decoration: none;
     font-size: 1.3em;
@@ -36,9 +48,17 @@
     font-weight: 400;
 }
 
-.btn-primary {
-    background-color: black;
+.btn-dark {
+    background-color: var(--cor9);
     border-style: none;
+}
+
+.btn-dark:hover {
+    background-color: #4ca2fe;
+}
+
+.btn-dark:active {
+    transform: scale(0.98);
 }
 
 @media screen and (max-width: 960px){
