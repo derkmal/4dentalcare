@@ -55,6 +55,7 @@ form {
 .formContainer {
     width: 50%;
     margin: 0 auto;
+    /* padding: 0.09em; */
     border: thin solid #15243542;
     border-radius: 0.5em;
 }
@@ -87,7 +88,7 @@ form input[type=submit] {
     border: none;
     font-size: 1.2em;
     font-weight: 400;
-    border-radius: 0.5e;
+    border-radius: 0.5em;
     padding: 0.8em 1em;
     width: 100%;
     margin-top: 1em;
