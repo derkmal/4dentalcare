@@ -1,14 +1,14 @@
 {
-  "main.css": "/4dentalcare/static/css/main.59740027.chunk.css",
-  "main.js": "/4dentalcare/static/js/main.d42f8ffb.chunk.js",
-  "main.js.map": "/4dentalcare/static/js/main.d42f8ffb.chunk.js.map",
+  "main.css": "/4dentalcare/static/css/main.c6fdb551.chunk.css",
+  "main.js": "/4dentalcare/static/js/main.89b5bbb0.chunk.js",
+  "main.js.map": "/4dentalcare/static/js/main.89b5bbb0.chunk.js.map",
   "static/js/1.61e6a262.chunk.js": "/4dentalcare/static/js/1.61e6a262.chunk.js",
   "static/js/1.61e6a262.chunk.js.map": "/4dentalcare/static/js/1.61e6a262.chunk.js.map",
   "runtime~main.js": "/4dentalcare/static/js/runtime~main.559880fc.js",
   "runtime~main.js.map": "/4dentalcare/static/js/runtime~main.559880fc.js.map",
   "static/media/SignIn.css": "/4dentalcare/static/media/dental-treatment.0ad88de1.jpg",
-  "static/css/main.59740027.chunk.css.map": "/4dentalcare/static/css/main.59740027.chunk.css.map",
+  "static/css/main.c6fdb551.chunk.css.map": "/4dentalcare/static/css/main.c6fdb551.chunk.css.map",
   "index.html": "/4dentalcare/index.html",
-  "precache-manifest.09b5045a9bafad2c23543e64a2782a16.js": "/4dentalcare/precache-manifest.09b5045a9bafad2c23543e64a2782a16.js",
+  "precache-manifest.8a589b12eb6fc73600260728a81108cf.js": "/4dentalcare/precache-manifest.8a589b12eb6fc73600260728a81108cf.js",
   "service-worker.js": "/4dentalcare/service-worker.js"
 }
