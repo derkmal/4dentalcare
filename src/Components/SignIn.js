@@ -12,7 +12,7 @@ const SignIn=()=> {
 	  <form>
 		   <div className="formContainer">
 				<div>
-					<img src="images/name-vector.png" alt="name-photo" /> 
+					<img src="images/name-vector.PNG" alt="name-photo" /> 
 					<input type="text" placeholder='Ihren Name schreiben'  value="" name="myname" />
 				</div>
 				<div>
