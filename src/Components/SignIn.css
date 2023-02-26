@@ -33,7 +33,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* flex: 1; */
 }
 
 .overlay {
@@ -45,8 +44,7 @@
 }
 
 form {
-    /* flex: 2; */
-    /* text-align: center; */
+
     color: white;
     font-family: 'Raleway', sans-serif;
     display: flex;
@@ -56,7 +54,6 @@ form {
 
 .formContainer {
     width: 50%;
-    /* background-color: aliceblue; */
     margin: 0 auto;
     border: thin solid #15243542;
     border-radius: 0.5em;
@@ -86,7 +83,7 @@ form input[type=text]::placeholder {
 }
 
 form input[type=submit] {
-    background-color: #f2ba11; /* #FFCA2C */
+    background-color: #f2ba11; 
     border: none;
     font-size: 1.2em;
     font-weight: 400;
